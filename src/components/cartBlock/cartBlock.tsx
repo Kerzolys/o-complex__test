@@ -122,6 +122,7 @@ export const CartBlock: React.FC<CartBlockProps> = ({
           value={values.phone}
           onChange={handleChange}
           name="phone"
+          className={styles.container__form__input}
         />
         <button type="submit" disabled={!values.phone}>
           заказать
